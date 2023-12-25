@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pods
+metadata:
+  name: webpod
+  namespace: trinity
+spec:
+  conatainers:
+    - image: nginx
+      name: nginx
